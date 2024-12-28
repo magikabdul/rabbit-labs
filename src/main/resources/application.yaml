@@ -1,3 +1,12 @@
 spring:
   application:
     name: rabbit-mq-lab
+
+rabbitmq:
+  exchanges:
+    internal: internal.exchange
+  queue:
+    notification: notification-queue
+  routing-keys:
+    internal-notification: internal.notification-routing-key
+
