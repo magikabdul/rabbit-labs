@@ -2,6 +2,9 @@ spring:
   application:
     name: rabbit-mq-lab
 
+  rabbitmq:
+    addresses: localhost:5672
+
 rabbitmq:
   exchanges:
     internal: internal.exchange
