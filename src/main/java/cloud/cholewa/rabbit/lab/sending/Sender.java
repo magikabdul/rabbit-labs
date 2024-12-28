@@ -11,16 +11,16 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class Sender {
 
-    @Bean
-    CommandLineRunner runner(
-        NotificationConfig config,
-        MessageProducer producer
-    ) {
-        return args ->
-            producer.publish(
-                "foo",
-                config.getInternalExchanges(),
-                config.getInternalNotificationRoutingKey()
-            );
-    }
+//    @Bean
+//    CommandLineRunner runner(
+//        NotificationConfig config,
+//        MessageProducer producer
+//    ) {
+//        return args ->
+//            producer.publish(
+//                "foo",
+//                config.getInternalExchanges(),
+//                config.getInternalNotificationRoutingKey()
+//            );
+//    }
 }
