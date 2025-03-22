@@ -1,0 +1,1 @@
+[![CI](https://github.com/magikabdul/rabbit-labs/actions/workflows/CI.yaml/badge.svg)](https://github.com/magikabdul/rabbit-labs/actions/workflows/CI.yaml)
